@@ -1,0 +1,335 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scientia</title>
+  <link rel="shortcut icon" href="/src/assets/favicon_io/favicon.ico" type="image/x-icon" />
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+  <div id="pageLoader" class="fixed z-10 inset-0 bg-white flex justify-center items-center">
+    <span class="loader"></span>
+  </div>
+  <header class="h-16 flex bg-white transition-opacity  ">
+    <nav class="px-4 w-full max-w-6xl mx-auto flex justify-between items-center xl:px-0">
+      <a href="/"><img class="w-40" src='/src/assets/images/logo-scientia.png' alt='Logo Scientia' /></a>
+      <div class='gap-16 h-full pt-5 text-black600 text-sm lg:text-base hidden md:flex'>
+        <div class="cursor-pointer h-full flex flex-col justify-between items-center relative">
+          <div class="flex items-center justify-center gap-2 hover:text-orange">
+            <a href="#about-us">Sobre</a>
+          </div>
+        </div>
+        <div class="cursor-pointer h-full flex flex-col justify-between items-center relative">
+          <div class="flex items-center justify-center gap-2 hover:text-orange">
+            <a href="#solutions">Soluções</a>
+          </div>
+        </div>
+        <div class="cursor-pointer h-full flex flex-col justify-between items-center relative">
+          <div class="flex items-center justify-center gap-2 hover:text-orange">
+            <a href="#partners">Parceiros</a>
+          </div>
+        </div>
+        <div class="cursor-pointer h-full flex flex-col justify-between items-center relative">
+          <div class="flex items-center justify-center gap-2 hover:text-orange">
+            <a href="#customers">Clientes</a>
+          </div>
+        </div>
+        <div class="cursor-pointer h-full flex flex-col justify-between items-center relative">
+          <div class="flex items-center justify-center gap-2 hover:text-orange">
+            <a href="#contacts">Contato</a>
+          </div>
+        </div>
+      </div>
+      <div class="md:hidden">
+        <button class="menuButton"><img class="w-6" src="/src/assets/icons/menu.png" alt="" /></button>
+      </div>
+    </nav>
+    <div class="menu flex z-10 fixed inset-0 w-full h-screen hidden md:hidden">
+      <div class="backdrop w-full z-10 fixed inset-0 bg-black opacity-50"></div>
+      <nav class="sideMenu w-2/3 fixed bottom-0 top-0 right-0 z-30 bg-white shadow-2xl md:hidden">
+        <div class="flex justify-between shadow-sm p-5">
+          <div>
+            <img class="w-6" src="/src/assets/icons/scientia-icon.png" />
+          </div>
+          <button class="CloseButton ">
+            <img class="w-6 hover:scale-75" src="/src/assets/icons/close.png" alt="Fechar" />
+          </button>
+        </div>
+        <div class="w-full lg:w-40 h-1 bg-gradient-to-r from-cyan to-blue200"></div>
+        <div class="flex flex-col gap-8 p-6 text-black600">
+          <a href="#about-us" class="menu-item flex items-center gap-4 hover:text-orange">
+            <img class="w-4 h-4" src="/src/assets/icons/about.png" />
+            <p>Sobre</p>
+          </a>
+          <a href="#solutions" class="menu-item flex items-center gap-4 hover:text-orange">
+            <img class="w-4 h-4" src="/src/assets/icons/soluctions.png" />
+            <p>Soluções</p>
+          </a>
+          <a href="#partners" class="menu-item flex items-center gap-4 hover:text-orange">
+            <img class="w-4 h-4" src="/src/assets/icons/partners.png" />
+            <p>Parceiros</p>
+          </a>
+          <a href="#customers" class="menu-item flex items-center gap-4 hover:text-orange">
+            <img class="w-4 h-4" src="/src/assets/icons/clients.png" />
+            <p>Clientes</p>
+          </a>
+          <a href="#contacts" class="menu-item flex items-center gap-4 hover:text-orange">
+            <img class="w-4 h-4" src="/src/assets/icons/contact.png" />
+            <p class="">Contatos</p>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="home" class="h-80 bg-banner px-8 md:h-96">
+      <div class="h-full max-w-6xl mx-auto flex items-center">
+        <h1 class="font-bold text-white text-2xl md:text-4xl">Scientia – indústria especializada em terceirização de
+          <br /> suplementos alimentares e produtos naturais
+        </h1>
+      </div>
+    </section>
+    <section id="about-us" class="px-8 py-20">
+      <div class="h-full max-w-6xl mx-auto">
+        <div class="mb-10">
+          <h2 class="text-black600 text-2xl">Sobre nós</h2>
+          <div class="h-1 w-36 bg-orange mt-4"></div>
+        </div>
+        <div class="flex flex-col gap-4 text-black600">
+          <p>Com o objetivo de fabricar suplementos para indústrias farmacêuticas e alimentares, em 7 de novembro de 2011
+            os irmãos Adriana, Fernando e Eduardo, fundaram em Pouso Alegre – MG a Scientia – empresa com o objetivo de
+            atender o mercado, usando todo conhecimento adquirido pelo grupo que atua na indústria farmacêutica e na
+            indústria de suplementos há mais de 30 anos.​</p>
+          <p>Nestes mais de 10 anos de experiencia, atendemos clientes de todos os tamanhos e canais, trazendo a realidade
+            os projetos e sonhos dos nossos parceiros.</p>
+          <p class="mt-6 font-bold text-xl md:text-2xl ">Com soluções criativas, pensadas em cada detalhe, a Scientia
+            oferece inovação, tecnologia e qualidade ao alcance de todos.</p>
+        </div>
+      </div>
+    </section>
+    <section class="px-4 py-28 bg-purple text-white">
+      <div class="flex flex-col gap-8 items-center justify-between h-full max-w-6xl mx-auto md:flex-row md:items-start">
+        <div class="flex items-center flex-col gap-4 max-w-80">
+          <img class="w-12 md:w-20" src="/src/assets/icons/rocket.png" alt="" />
+          <h3 class="text-3xl">Missão</h3>
+          <p class="text-center text-base">Conquistar a confiança de nossos parceiros superando suas expectativas com
+            nossas entregas.</p>
+        </div>
+        <div class="flex items-center flex-col gap-4 max-w-80">
+          <img class="w-12 md:w-20" src="/src/assets/icons/lamp.png" alt="" />
+          <h3 class="text-3xl">Visão</h3>
+          <p class="text-center text-base">Ser a principal parceira dos empreendedores tornando o sonho de sua marca
+            uma realidade com qualidade de uma farmacêutica.</p>
+        </div>
+        <div class="flex items-center flex-col gap-4 max-w-80">
+          <img class="w-12 md:w-20" src="/src/assets/icons/justice.png" alt="" />
+          <h3 class="text-3xl">Valores</h3>
+          <p class="text-center text-base">Criatividade​; Ética; Exclusividade; Inovação​; Transparência​</p>
+        </div>
+      </div>
+    </section>
+    <section id="solutions" class="px-8 py-14">
+      <div class="h-full max-w-6xl mx-auto">
+        <div class="mb-10">
+          <h2 class="text-black600 text-2xl">Soluções</h2>
+          <div class="h-1 w-36 bg-orange mt-4"></div>
+        </div>
+        <div class="flex flex-col gap-4 text-black600">
+          <p>Oferecemos serviço completo em atendimento comercial, consultoria de apresentação nutracenica,
+            desenvolvimento de embalagem, assuntos regulatórios, diferenciais de exclusividade.</p>
+        </div>
+        <div class="flex flex-col justify-between gap-12 mt-12">
+          <div>
+            <h3 class="text-xl text-black600">Trabalhamos com produtos em todas as linhas de finalização:</h3>
+            <ul class="mt-8 flex flex-wrap gap-4">
+              <li class="flex items-center border w-full md:w-64 p-4 border-gray rounded-lg">
+                <div class="flex items-center gap-4">
+                  <img class="w-8" src="/src/assets/icons/liquid.png" />
+                  <p class="text-black600 text-lg">Líquidos</p>
+                </div>
+              </li>
+              <li class="flex items-center border w-full md:w-64 p-4 border-gray rounded-lg">
+                <div class="flex items-center gap-4">
+                  <img class="w-8" src="/src/assets/icons/pills.png" />
+                  <p class="text-black600 text-lg">Comprimidos</p>
+                </div>
+              </li>
+              <li class="flex items-center border w-full md:w-64 p-4 border-gray rounded-lg">
+                <div class="flex items-center gap-4">
+                  <img class="w-8" src="/src/assets/icons/pills-3.png" />
+                  <p class="text-black600 text-lg">Pastilhas mastigáveis</p>
+                </div>
+              </li>
+              <li class="flex items-center border w-full md:w-64 p-4 border-gray rounded-lg">
+                <div class="flex items-center gap-4">
+                  <img class="w-8" src="/src/assets/icons/softgel.jpg" />
+                  <p class="text-black600 text-lg">Capsulas softgel</p>
+                </div>
+              </li>
+              <li class="flex items-center border w-full md:w-64 p-4 border-gray rounded-lg">
+                <div class="flex items-center gap-4">
+                  <img class="w-8" src="/src/assets/icons/pills-2.png" />
+                  <p class="text-black600 text-lg">Capsulas dura</p>
+                </div>
+              </li>
+              <li class="flex items-center border w-full md:w-64 p-4 border-gray rounded-lg">
+                <div class="flex items-center gap-4">
+                  <img class="w-10" src="/src/assets/icons/powder.png" />
+                  <p class="text-black600 text-lg">Pós</p>
+                </div>
+              </li>
+              <li class="flex items-center border w-full md:w-64 p-4 border-gray rounded-lg">
+                <div class="flex items-center gap-4">
+                  <img class="w-8" src="/src/assets/icons/effervescentIcon.png" />
+                  <p class="text-black600 text-lg">Comprimidos efervescentes</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-xl text-black600">Adequando seu produto a qualquer tipo de envase:</h3>
+            <ul class="mt-8 flex flex-wrap gap-4">
+              <li class="flex items-center border w-full md:w-64 p-4 border-gray rounded-lg">
+                <div class="flex items-center gap-4">
+                  <img class="w-6" src="/src/assets/icons/blister.png" />
+                  <p class="text-black600 text-lg">Blister</p>
+                </div>
+              </li>
+              <li class="flex items-center border w-full md:w-64 p-4 border-gray rounded-lg">
+                <div class="flex items-center gap-4">
+                  <img class="w-6" src="/src/assets/icons/pouch.png" />
+                  <p class="text-black600 text-lg">Pouch</p>
+                </div>
+              </li>
+              <li class="flex items-center border w-full md:w-64 p-4 border-gray rounded-lg">
+                <div class="flex items-center gap-4">
+                  <img class="w-6" src="/src/assets/icons/sache.png" />
+                  <p class="text-black600 text-lg">Sache</p>
+                </div>
+              </li>
+              <li class="flex items-center border w-full md:w-64 p-4 border-gray rounded-lg">
+                <div class="flex items-center gap-4">
+                  <img class="w-6" src="/src/assets/icons/box.png" />
+                  <p class="text-black600 text-lg">Cartucho</p>
+                </div>
+              </li>
+              <li class="flex items-center border w-full md:w-64 p-4 border-gray rounded-lg">
+                <div class="flex items-center gap-4">
+                  <img class="w-6" src="/src/assets/icons/bottle-2.png" />
+                  <p class="text-black600 text-lg">Pote com pó</p>
+                </div>
+              </li>
+              <li class="flex items-center border w-full md:w-64 p-4 border-gray rounded-lg">
+                <div class="flex items-center gap-4">
+                  <img class="w-6" src="/src/assets/icons/bottle.png" />
+                  <p class="text-black600 text-lg">Frasco pet</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="partners" class="px-8 p-8">
+      <div class="h-full max-w-6xl mx-auto">
+        <div class="mb-10 ">
+          <h2 class="text-2xl">Parceiros</h2>
+          <div class="h-1 w-36 bg-orange mt-4"></div>
+        </div>
+        <div class="flex flex-col gap-4">
+          <p>É com grande satisfação que reconhecemos nossos parceiros, cuja colaboração e apoio são fundamentais para o nosso progresso e sucesso mútuos.</p>
+          <figure class="mt-8 flex flex-col gap-10 md:flex-row">
+            <div class="w-full flex items-center justify-center">
+              <a class="w-3/4 sm:w-2/4 md:w-80" href="http://brasterapica.com.br/" target="_blank"><img class="w-full" src="/src/assets/images/logo-brasterapica.png" alt="Logo Brasterápica" /></a>
+            </div>
+            <div class="w-full flex items-center justify-center">
+              <a class="w-3/4 sm:w-2/4 md:w-80" href="https://www.naturalis.com.br/" target="_blank"><img class="w-full" src="/src/assets/images/logo-naturalis.png" alt="Logo Naturalis" /></a>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section id="customers" class="px-8 p-8">
+      <div class="h-full max-w-6xl mx-auto">
+        <div class="mb-10">
+          <h2 class="text-black600 text-2xl">Clientes</h2>
+          <div class="h-1 w-36 bg-orange mt-4"></div>
+        </div>
+        <div class="flex flex-col gap-4 text-black600">
+          <p>Descubra quem confia em nós! Conheça alguns dos nossos clientes satisfeitos.</p>
+          <figure class="flex flex-wrap gap-8 justify-center items-center py-10 sm:justify-between">
+            <div class="flex justify-start items-center max-w-32 h-28">
+              <a href="https://www.ache.com.br/" target="_blank"><img class="w-auto" src="/src/assets/images/logo-ache.png" alt="Logo Ache" /></a>
+            </div>
+            <div class="flex justify-start items-center max-w-32 h-28">
+              <a href="https://althaia.com.br/" target="_blank"><img class="w-auto" src="/src/assets/images/logo-althaia.png" alt="Logo Althaia" /></a>
+            </div>
+            <div class="flex justify-start items-center max-w-32 h-28">
+              <a href="https://www.beltnutrition.com.br/" target="_blank"><img class="w-auto" src="/src/assets/images/logo-beltnutrition.png" alt="Logo Belt Nutrition" /></a>
+            </div>
+            <div class="flex justify-start items-center max-w-32 h-28">
+              <a href="https://www.cristalia.com.br/" target="_blank"><img class="w-auto" src="/src/assets/images/logo-cristalia.png" alt="Logo Cristalia" /></a>
+            </div>
+            <div class="flex justify-start items-center max-w-32 h-28">
+              <a href="https://doremus.com.br/" target="_blank"><img class="w-auto" src="/src/assets/images/logo-doremus.png" alt="Logo Doremus" /></a>
+            </div>
+            <div class="flex justify-start items-center max-w-32 h-28">
+              <a href="https://eurofarma.com.br/" target="_blank"><img class="w-auto" src="/src/assets/images/logo-eurofarma.png" alt="Logo Eurofarma" /></a>
+            </div>
+            <div class="flex justify-start items-center max-w-20 h-28">
+              <a href="https://www.gpharma.com.br/" target="_blank"><img class="w-auto" src="/src/assets/images/Logo-Gpharma.png" alt="Logo GPharma" /></a>
+            </div>
+            <div class="flex justify-start items-center max-w-32 h-28">
+              <a href="https://massime.com.br/" target="_blank"><img class="w-auto" src="/src/assets/images/Logo-Massime.png" alt="Logo Massime" /></a>
+            </div>
+            <div class="flex justify-start items-center max-w-32 h-28">
+              <a href="https://www.qualynutri.com.br/" target="_blank"><img class="w-auto" src="/src/assets/images/logo-qualynutri.png" alt="Logo Qualynutri" /></a>
+            </div>
+            <div class="flex justify-start items-center max-w-28 h-28">
+              <a href="https://wpinksuplementos.com.br/" target="_blank"><img class="w-auto" src="/src/assets/images/logo-wpink.png" alt="Logo wpink" /></a>
+            </div>
+            <div class="flex justify-start items-center max-w-28 h-28">  
+              <a href="https://www.zydusbrasil.com/" target="_blank"><img class="w-auto" src="/src/assets/images/logo-zydus.png" alt="Logo zydus" /></a>
+            </div>
+            <div class="flex justify-start items-center max-w-28 h-28">
+              <a href="https://smells.com.br/" target="_blank"><img src="/src/assets/images/logo-smells.png" alt="Logo smells" /></a>
+            </div>
+          <figure>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="contacts" class="pb-4 px-4 bg-pink py-20 text-white">
+    <div class="max-w-6xl flex-col m-auto flex justify-between items-center text-center text-sm gap-8 md:flex-row">
+      <div>
+        <img class="w-52" src='/src/assets/images/logo-scientia-branco.png' alt='Logo Scientia' />
+      </div>
+      <div class="flex flex-col gap-3">
+        <h3 class="mb-1 font-medium">Localização</h3>
+        <p>Avenida Getúlio Vargas, 280 Jardim Ângelo <br />Arujá – São Paulo – Brasil <br />Cep 07400 230</p>
+      </div>
+      <div class="flex flex-col gap-3">
+        <h3 class="mb-1 font-medium">Canais de atendimento</h3>
+        <div>
+          <h4>E-mail</h4>
+          <a href="mailto:contato@scientiapharma.com.br">contato@scientiapharma.com.br</a>
+        </div>
+      </div>
+    </div>
+    <div class="mt-14">
+      <p class="text-xs text-center">Copyright 2024© - Todos os Direitos Reservados</p>
+    </div>
+  </footer>
+  <script src="/src/js/menu.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      let pageLoader = document.getElementById('pageLoader');
+
+      if (pageLoader) {
+          pageLoader.classList.add('hidden');
+      }
+    });
+  </script>
+</body>
+</html>
